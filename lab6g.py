@@ -17,7 +17,7 @@ def add_movie(database,name,director,year,runtime):
 def main():
     movie_database=[]
     add_movie(movie_database,"Tatanic","James Cameron",1997,195)
-    add_movie(movie_database,"Avengers","Russo Brothers",2018,149)
+    add_movie(movie_database,"Avengers Infinity War","Russo Brothers",2018,149)
     add_movie(movie_database,"Shawshank Redemption","Frank Darabont",1994,142)
     add_movie(movie_database,"1917","Sam Mendes",2019,119)
     add_movie(movie_database,"Odyssey","Christopher Nolan",2026,173)
