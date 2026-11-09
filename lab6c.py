@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Pardip Rooprai
+# Date: 11/06/2026
 # Purpose: Practice Set Operations.
 # Usage: ./lab6c.py
 
