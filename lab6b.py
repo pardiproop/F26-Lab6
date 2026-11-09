@@ -6,5 +6,35 @@
 # Purpose: Practice Set Operations.
 # Usage: ./lab6b.py
 # TO DO 1: Copy the code from lab6a.py and paste here.
+def buildtheSet(divisor):
+    s3=set()
+    s5=set()
+    # Complete this function
+    for num in range(1,101):
+        if num%3==0:
+            s3.add(num)
+        if num%5==0:
+            s5.add(num)
+    return s3,s5
+
 # TO DO 2: Create the function s3ors5().
+def s3_or_s5(s3,s5):
+    only_s3=s3.difference(s5)
+    only_s5=s5.difference(s3)
+    common_set=s3.intersections(s5)
+    result_set=(only_s3.union(only_s5)).difference(common_set)
+    return result_set
+
+def main():
+
+    s3 = buildtheSet(3)
+    print("s3: ", s3)
+    print("----------------------------------------")
+
+    s5 = buildtheSet(5)
+    print("s5: ", s5)
+    print("----------------------------------------")
+
+main()
+
 # TO DO 3: Run the script. Take screenshot of only s3ors5() function. No need to capture main() in the screenshot. Make sure you show the output in the screenshot.
