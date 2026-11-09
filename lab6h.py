@@ -15,7 +15,7 @@ def add_movie(database,name,director,year,runtime):
     database.append(movie)
 def find_movie(database,search_word):
     results=[]
-    if search_word.lower() in movie["name"].lower():
+    if search_word.lower() in database["name"].lower():
         results.append(movie)
 
 def main():
