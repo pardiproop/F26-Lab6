@@ -19,4 +19,3 @@ def histogram(sentence):
                 letters[ch]=1
     for key,value in letters.items():
         print(f"key: {key}, Value: {value}")
-
