@@ -17,5 +17,7 @@ def histogram(sentence):
                 letters[ch]=letters[ch]+1
             else:
                 letters[ch]=1
+def main():
     for key,value in letters.items():
         print(f"key: {key}, Value: {value}")
+main()
